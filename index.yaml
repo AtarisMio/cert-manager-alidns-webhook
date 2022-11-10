@@ -3,6 +3,15 @@ entries:
   alidns-webhook:
   - apiVersion: v1
     appVersion: 1.0.0
+    created: "2022-11-10T10:56:36.458922278Z"
+    description: Deploys alidns webhook for cert-manager.
+    digest: 5738380f4252a970e1346f287d89edbfa33a8ae4e233ff164ad9269a7fed9b20
+    name: alidns-webhook
+    urls:
+    - https://github.com/AtarisMio/cert-manager-alidns-webhook/releases/download/alidns-webhook-1.0.4/alidns-webhook-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    appVersion: 1.0.0
     created: "2022-11-10T10:53:49.607342392Z"
     description: Deploys alidns webhook for cert-manager.
     digest: ccd910cd3e0e064617523e22d491a4d3cc087decc116b2485c07d1691134d1d8
@@ -28,4 +37,4 @@ entries:
     urls:
     - https://github.com/AtarisMio/cert-manager-alidns-webhook/releases/download/alidns-webhook-1.0.1/alidns-webhook-1.0.1.tgz
     version: 1.0.1
-generated: "2022-11-10T10:53:49.607355192Z"
+generated: "2022-11-10T10:56:36.458934777Z"
