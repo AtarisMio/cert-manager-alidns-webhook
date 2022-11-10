@@ -163,5 +163,5 @@ roleRef:
 subjects:
   - apiGroup: ""
     kind: ServiceAccount
-    name: {{ include "cert-manager-webhook-huawei.fullname" . }}
+    name: {{ include "alidns-webhook.fullname" . }}
     namespace: {{ .Release.Namespace }}
