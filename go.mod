@@ -1,4 +1,4 @@
-module github.com/ataris-mio/cert-manager-alidns-webhook
+module github.com/atarismio/cert-manager-alidns-webhook
 
 go 1.19
 
